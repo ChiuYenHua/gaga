@@ -1,0 +1,91 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  font-family: 'Raleway', sans-serif;
+}
+
+#banner {
+  background-image: url("pic/background.jpeg");
+  background-size: cover;
+  background-position: bottom center;
+  width: 100%;
+  height: 1100px;
+}
+
+h1 {
+  color: white;
+  font-size: 50px;
+  font-weight: 600;
+  text-align: center;
+  font-weight: bold;
+  font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
+}
+
+#banner .content h1 {
+  border: solid 5px white;
+  position: relative;
+  top: 250px;
+  width: 300px;
+  margin: 0 auto;
+  border-radius: 15px;
+  opacity: 0.6;
+}
+
+#gameboard {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px; /* 每張卡片之間的間距 */
+}
+
+.card {
+  width: calc(50% - 10px); /* 每排2張，減去間距 */
+  box-sizing: border-box;
+}
+
+.card:hover {
+  opacity: 0.8;
+  cursor: url('film_pic/acros100.png'), default !important;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+nav {
+  padding-top: 60px;
+}
+
+nav > ul {
+    background-color: black;
+    list-style: none;   /* 移除項目符號 */
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-weight: bold;
+    font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
+}
+
+nav a {
+    color: inherit; /* 移除超連結顏色 */
+    display: block; /* 讓 <a> 填滿 <li> */
+    font-size: 30px;
+    padding: 30px;
+    text-decoration: none;  /* 移除超連結底線 */
+    border: 5px white solid;
+    font-weight: bold;
+}
+
+/* 滑鼠移到 <a> 時變成深底淺色 */
+nav li:hover {
+    background-color: rgb(30, 30, 30);
+}
+
+.flex-nav {
+    display: flex;
+    justify-content: space-evenly;
+}
