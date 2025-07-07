@@ -24,7 +24,7 @@ h1 {
   font-family: "Arial Black", "Arial Bold", Gadget, sans-serif;
 }
 
-#banner .content h1 {
+/* #banner .content h1 {
   border: solid 5px white;
   position: relative;
   top: 250px;
@@ -32,7 +32,7 @@ h1 {
   margin: 0 auto;
   border-radius: 15px;
   opacity: 0.6;
-}
+} */
 
 #gameboard {
   display: flex;
